@@ -1,0 +1,152 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+.data-box>div{
+    width: 20vw;
+    height: 130px;
+    background-color:crimson;
+    /* margin: 0 2.5vw 0; */
+    margin: 20px auto;
+    border-radius: 20px 0 20px 0;
+    border: 1px #00000099 solid;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    color: white;
+}
+.data-box>div>h3{
+    color: white;
+}
+.process>div>a>i{
+    color: white;
+    font-size:4rem ;
+
+
+}
+.p1{
+    margin-top: 3vw;
+}
+
+.data-box{
+    height: fit-content;
+    width: 100vw;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+h3{
+    font-size: 2rem;
+    color:#ffa737;
+    
+}
+.process{
+    display: flex;
+    flex-direction: row;
+ 
+    height: fit-content;
+    /* background-color: chocolate; */
+    align-items: center;
+
+    height: 40vh;
+}
+    
+
+.step{
+    background-color: #01ac9b;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 10rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    transition:  transform 1s;
+   
+
+}
+.step:hover{
+    transform: rotate(360deg);
+}
+.middle>form>button{
+    
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgb(0 0 0 / 25%);
+  margin-top: 1rem;
+ margin: 1rem 0rem;
+color: #ffa737;
+}
+.step-1{
+    left: 13rem;
+}
+.step-2{
+    left: 23rem;
+}
+.step-3{
+    left: 33rem;
+}
+.step-4{
+    left: 43rem;
+}
+.step-5{
+    left: 53rem;
+}
+
+@media screen and (max-width: 500px){
+    .process{
+        height: 63vh;
+        flex-direction: column;
+        position: relative;
+    }
+    .step{
+        position: relative;
+        left: 0;
+        margin: 1rem 0rem;
+    }
+    /* *{
+        font-size: 8px;
+    } */
+
+    .process>div>i{
+        font-size: 3rem;
+    }
+    
+}
+.middle{
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.waviy {
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+    font-size: 60px;
+  }
+  .waviy span {
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    display: inline-block;
+  color: white;
+    text-transform: uppercase;
+    animation: waviy 1s;
+    animation-delay: calc(.1s * var(--i));
+  
+  }
+  @keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+}  
+
+
+.sec-about{
+    background: url("https://www.eraktkosh.in/BLDAHIMS/bloodbank/transactions/statsAssets/images/counter-bg.png");
+}
